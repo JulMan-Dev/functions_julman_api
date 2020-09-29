@@ -11,7 +11,7 @@ declare module "functions_julman_api" {
          * @param callback The code to execute when function called
          * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
          * @throws Can throw a "*TypeError*" if the name is alrady use
-         * @license ISE -> https://github.com/MinecraftJulMan/NPM-Functions/LICENCE
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
          */
         public static add(name: String, callback: function(String): void): void;
 
@@ -21,8 +21,17 @@ declare module "functions_julman_api" {
          * @returns {function(String): void} The function removed
          * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
          * @throws Can throw "*TypeError*" if the function not exist
-         * @license ISE -> https://github.com/MinecraftJulMan/NPM-Functions/LICENCE
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
          */
         public static remove(name: String): function(String): void;
+
+        /**
+         * 
+         * @param name The function's name to execute
+         * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
+         * @throws Can throw "*TypeError*" if the function not exist
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         */
+        public static execute(name: String): void;
     }
 }
