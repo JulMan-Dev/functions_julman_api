@@ -12,6 +12,7 @@ declare module "functions_julman_api" {
          * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
          * @throws Can throw a "*TypeError*" if the name is alrady use
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#addname-callback-go-to-source)
          */
         public static add(name: String, callback: function(String): void): void;
 
@@ -22,6 +23,7 @@ declare module "functions_julman_api" {
          * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
          * @throws Can throw "*TypeError*" if the function not exist
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#removename-go-to-source)
          */
         public static remove(name: String): function(String): void;
 
@@ -31,6 +33,7 @@ declare module "functions_julman_api" {
          * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
          * @throws Can throw "*TypeError*" if the function not exist
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#executename-go-to-source)
          */
         public static execute(name: String): void;
     }
