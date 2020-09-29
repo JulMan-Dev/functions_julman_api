@@ -3,7 +3,7 @@ import { add } from "../src";
 /**
  * > *A API for store functions to execute later.*
  */
-declare module "npm_functions" {
+declare module "functions_julman_api" {
     class Functions {
         /**
          * 

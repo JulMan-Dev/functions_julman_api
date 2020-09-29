@@ -1,4 +1,4 @@
-# NPM_Function
+# Functions_JulMan_API
 
 ## Installation
 <br>
@@ -7,19 +7,29 @@
 Paste this command in your Node.JS project dir's terminal :
 
 ```bash
-npm --prefix . install npm_functions
+npm --prefix . install functions_julman_api
 ```
 
 ## Import
 ```javascript
-const functions = require("npm_functions").Functions; // ES5
+const functions = require("functions_julman_api").Functions; // ES5
 ```
 **or** (ES6 method not supported in [RunKit](https://runkit.com))
 ```javascript
-import Functions from "npm_functions"; // ES6
+import Functions from "functions_julman_api"; // ES6
 ```
 
 ## Licence
 ![ISC](https://www.isc.org/images/logo.png)
 
 See licence on [GitHub](https://github.com/MinecraftJulMan/NPM_Functions/blob/master/LICENCE) or [ISC's Site](https://isc.org/).
+
+## Links
+
+### Project
+
+[npm package](https://www.npmjs.com/package/functions_julman_api) - [GitHub](https://github.com/MinecraftJulMan/functions_julman_api)
+
+### Author
+
+[npm](https://www.npmjs.com/~julman) - [GitHub](https://github.com/MinecraftJulMan)

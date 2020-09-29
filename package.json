@@ -1,14 +1,11 @@
 {
-  "name": "@minecraftjulman/npm_functions",
-  "version": "1.0.0",
+  "name": "functions_julman_api",
+  "version": "1.0.0r",
   "description": "A API for store functions to execute later.",
   "main": "./src/index.js",
   "typings": "./typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
@@ -19,7 +16,7 @@
     "JavaScript",
     "Functions"
   ],
-  "author": "minecraftjulman",
+  "author": "julman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MinecraftJulMan/NPM-Functions/issues"
