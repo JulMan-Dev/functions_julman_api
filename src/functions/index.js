@@ -12,14 +12,14 @@ module.exports = class Functions {
     }
 
     remove(name) {
-        if (this.list.has(name)) throw new TypeError("404: Not Found");
+        if (!this.list.has(name)) throw new TypeError("404: Not Found");
         var rv = this.list.get(name);
         this.list.delete(name);
         return rv;
     }
 
     execute(name) {
-        if (this.list.has(name)) throw new TypeError("404: Not Found");
+        if (!this.list.has(name)) throw new TypeError("404: Not Found");
         this.list.get(name).call(this, name);
     }
 
