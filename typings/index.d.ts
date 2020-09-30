@@ -60,5 +60,18 @@ declare module "functions_julman_api" {
          * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#instance-go-to-source)
          */
         public static instance(): Functions;
+
+        
+        /**
+         * Change function's executor
+         * @param name The function name to edit
+         * @param new_callback The new function's code
+         * @returns The old function's code
+         * @author JulMan (MinecraftJulMan) ---> https://github.com/MinecraftJulMan
+         * @throws Can throw a "*TypeError*" if the name is alrady use
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#replacename-callback-go-to-source)
+         */
+        public replace(name: String, new_callback: function(String): void): function(String): void;
     }
 }

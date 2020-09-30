@@ -23,6 +23,14 @@ module.exports = class Functions {
         this.list.get(name).call(this, name);
     }
 
+    replace(name, new_callback) {
+        if (!this.list.has(name)) throw new TypeError("404: Not Found");
+        var rv = this.list.get(name);
+        this.list.delete(name);
+        this.add(name, new_callback);
+        return rv;
+    }
+
     clear() {
         this.list.clear();
     }
