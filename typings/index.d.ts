@@ -1,4 +1,4 @@
-import { add } from "../src";
+import { add, instance } from "../src";
 
 /**
  * > *A API for store functions to execute later.*
@@ -14,7 +14,7 @@ declare module "functions_julman_api" {
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
          * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#addname-callback-go-to-source)
          */
-        public static add(name: String, callback: function(String): void): void;
+        public add(name: String, callback: function(String): void): void;
 
         /**
          * 
@@ -25,7 +25,7 @@ declare module "functions_julman_api" {
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
          * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#removename-go-to-source)
          */
-        public static remove(name: String): function(String): void;
+        public remove(name: String): function(String): void;
 
         /**
          * 
@@ -35,6 +35,14 @@ declare module "functions_julman_api" {
          * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
          * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#executename-go-to-source)
          */
-        public static execute(name: String): void;
+        public execute(name: String): void;
+
+        /**
+         * @returns A new instance of Functions ([view doc](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions))
+         * @author JulMan (MinecraftJulMan) --> https://github.com/MinecraftJulMan
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         * @description See on [GitHub](https://github.com/MinecraftJulMan/functions_julman_api/wiki/Functions#instance-go-to-source)
+         */
+        public static instance(): Functions;
     }
 }
