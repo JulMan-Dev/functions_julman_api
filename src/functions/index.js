@@ -18,6 +18,10 @@ module.exports = class Functions {
         list.get(name).call(this, name);
     }
 
+    clear() {
+        list.clear();
+    }
+
     static instance() {
         return new Functions();
     }

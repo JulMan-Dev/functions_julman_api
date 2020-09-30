@@ -28,7 +28,7 @@ See licence on [GitHub](https://github.com/MinecraftJulMan/NPM_Functions/blob/ma
 
 ### Project
 
-[npm package](https://www.npmjs.com/package/functions_julman_api) - [GitHub](https://github.com/MinecraftJulMan/functions_julman_api)
+[npm package](https://www.npmjs.com/package/functions_julman_api) - [GitHub](https://github.com/MinecraftJulMan/functions_julman_api) - [Wiki](https://github.com/MinecraftJulMan/functions_julman_api/wiki)
 
 ### Author
 
