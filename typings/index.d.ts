@@ -6,6 +6,13 @@ import { add, instance } from "../src";
 declare module "functions_julman_api" {
     class Functions {
         /**
+         * @deprecated
+         * @author JulMan (MinecraftJulMan) --> https://github.com/MinecraftJulMan
+         * @license ISE -> https://github.com/MinecraftJulMan/functions_julman_api/blob/master/LICENCE
+         */
+        private list: Map<String, function(String): void>;
+
+        /**
          * Add function
          * @param name The name for the function ***(arg0 = String -> the function name)***
          * @param callback The code to execute when function called
