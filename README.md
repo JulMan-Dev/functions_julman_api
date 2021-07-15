@@ -22,14 +22,14 @@ import Functions from "functions_julman_api"; // ES6
 ## Licence
 ![ISC](https://www.isc.org/images/logo.png)
 
-See licence on [GitHub](https://github.com/MinecraftJulMan/NPM_Functions/blob/master/LICENCE) or [ISC's Site](https://isc.org/).
+See licence on [GitHub](https://github.com/JulMan-Dev/functions_julman_api/blob/master/LICENCE) or [ISC's Site](https://isc.org/).
 
 ## Links
 
 ### Project
 
-[npm package](https://www.npmjs.com/package/functions_julman_api) - [GitHub](https://github.com/MinecraftJulMan/functions_julman_api) - [Wiki](https://github.com/MinecraftJulMan/functions_julman_api/wiki)
+[npm package](https://www.npmjs.com/package/functions_julman_api) - [GitHub](https://github.com/JulMan-Dev/functions_julman_api) - [Wiki](https://github.com/JulMan-Dev/functions_julman_api/wiki)
 
 ### Author
 
-[npm](https://www.npmjs.com/~julman) - [GitHub](https://github.com/MinecraftJulMan)
+[npm](https://www.npmjs.com/~julman) - [GitHub](https://github.com/JulMan-Dev)
